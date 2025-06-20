@@ -1,3 +1,17 @@
+#!/bin/bash
+
+# Create subdirectories with numbering directly in the root directory
+mkdir -p 1_Journey
+mkdir -p 2_Resources
+mkdir -p 2_Resources
+mkdir -p 2_Resources
+mkdir -p 3_Encounters
+mkdir -p 3_Encounters
+mkdir -p 3_Encounters
+mkdir -p 4_Milestones
+mkdir -p 5_Debrief
+# Create README.md with sections in the root directory
+cat <<EOL > README.md
 # Academy
 
 ## 1. Journey 🌌
@@ -33,3 +47,6 @@ Use Excalidraw to aid in viusalisation of problems/Concepts
 
 ## 5. Debrief
 Use AI to generate summary, takeaways, and also questions from your own notes, for spaced repetition!
+EOL
+
+echo "Directory structure created successfully!"
